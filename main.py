@@ -22,3 +22,10 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+    # match prediction results
+print("="*40)
+print("MATCH PREDICTION RESULTS")
+print("="*40)
+for i in range(len(matches)):
+    print(f"{matches[i]['home_team']} vs {matches[i]['away_team']}: {predictions[i]}")
